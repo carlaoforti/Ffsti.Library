@@ -2,7 +2,7 @@
 using Ffsti.Library.Cep.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Ffsti.Library.Tests
+namespace Ffsti.Library.Tests.Cep
 {
     [TestClass]
     public class CepTest
