@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Ffsti.Library.Cep;
+using Ffsti.Library.Cep.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ffsti.Library.Tests
 {
@@ -6,27 +8,24 @@ namespace Ffsti.Library.Tests
     public class CepTest
     {
         [TestMethod]
-        public void TestCepUnico()
+        public void Consulta_Cep_Unico()
         {
-            var consulta = new ConsultaCep.ConsultaCep();
-            var result = consulta.PesquisaCep("13390000");
-            Assert.IsTrue(result.TipoCep == ConsultaCep.Models.TipoCep.CepUnico);
+            var result = ConsultaCep.PesquisaCep("13390000");
+            Assert.IsTrue(result.TipoCep == TipoCep.CepUnico);
         }
 
         [TestMethod]
-        public void TestCepCompleto()
+        public void Consulta_Cep_Completo()
         {
-            var consulta = new ConsultaCep.ConsultaCep();
-            var result = consulta.PesquisaCep("13414018");
-            Assert.IsTrue(result.TipoCep == ConsultaCep.Models.TipoCep.CepCompleto);
+            var result = ConsultaCep.PesquisaCep("13414018");
+            Assert.IsTrue(result.TipoCep == TipoCep.CepCompleto);
         }
 
         [TestMethod]
-        public void TestCepNaoEncontrado()
+        public void Consulta_Cep_Nao_Encontrado()
         {
-            var consulta = new ConsultaCep.ConsultaCep();
-            var result = consulta.PesquisaCep("99999999");
-            Assert.IsTrue(result.TipoCep == ConsultaCep.Models.TipoCep.NaoEncontrado);
+            var result = ConsultaCep.PesquisaCep("99999999");
+            Assert.IsTrue(result.TipoCep == TipoCep.NaoEncontrado);
         }
     }
 }
