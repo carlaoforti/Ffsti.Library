@@ -48,6 +48,15 @@ Global
 		{F1F39A75-80DA-4D46-A6E1-CE72A148F50E} = {5B261BE2-FFEC-4D6A-B97B-96A356514110}
 		{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792} = {BCD05EE3-6CD9-4070-95AE-1E052A667EB8}
 	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		PrimaryVersionType = AssemblyVersionAttribute
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = True
+		UpdateAssemblyInfoVersion = True
+		AssemblyVersionSettings = None.None.IncrementOnDemandWithReset.Increment
+		AssemblyFileVersionSettings = None.None.IncrementOnDemandWithReset.Increment
+		AssemblyInfoVersionSettings = None.None.IncrementOnDemandWithReset.Increment
+	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Ffsti.Library.vsmdi
 	EndGlobalSection
