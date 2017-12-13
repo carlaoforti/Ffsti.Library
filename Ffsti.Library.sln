@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cep", "Cep", "{BCD05EE3-6CD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ffsti.Library.Cep", "Ffsti.Library.Cep\Ffsti.Library.Cep.csproj", "{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLog", "NLog", "{BAFAEE63-EA63-48DB-A3E6-33EABD7E97E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ffsti.Library.NLog", "Ffsti.Library.NLog\Ffsti.Library.NLog.csproj", "{A8271EB2-80DB-41BB-9033-58388276A26D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8271EB2-80DB-41BB-9033-58388276A26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8271EB2-80DB-41BB-9033-58388276A26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8271EB2-80DB-41BB-9033-58388276A26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8271EB2-80DB-41BB-9033-58388276A26D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{D9C4343C-8525-4EC9-B3EE-A69624F741E3} = {59965008-D433-4546-922E-A63A58DD833E}
 		{F1F39A75-80DA-4D46-A6E1-CE72A148F50E} = {5B261BE2-FFEC-4D6A-B97B-96A356514110}
 		{A26F8F09-2A73-4EEE-9B85-8FAC83BD3792} = {BCD05EE3-6CD9-4070-95AE-1E052A667EB8}
+		{A8271EB2-80DB-41BB-9033-58388276A26D} = {BAFAEE63-EA63-48DB-A3E6-33EABD7E97E0}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Ffsti.Library.vsmdi
